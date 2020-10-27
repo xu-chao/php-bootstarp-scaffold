@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    background-color: #1635af;
+}
+#all{
+    margin: 100px auto;
+    margin-left: 500px auto;
+    width: 1000px;
+    height: 750px;
+}
+#all .method{
+    float: left;
+    margin: 0px 0 0 280px;
+    width: 300px;
+    height: 300px;
+}

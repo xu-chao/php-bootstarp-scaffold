@@ -1,0 +1,47 @@
+.all-sort-list { position:relative; width:100%;}
+.all-sort-list .item { height:30px; }
+.all-sort-list .item p { height:30px; line-height:30px; font-size:15px; width:150px; text-align: center;}
+.all-sort-list .hover p { position:relative; background:#778899;}
+.all-sort-list .item a { color:#FFFFFF; font-weight:bold;}
+.all-sort-list .item a:hover { color:#FFFFFF; }
+
+
+.all-sort-list .item-list { 
+	display:none;
+	position:absolute;
+	width:705px;
+	min-height:200px;
+	_height:200px;
+	background:#778899;
+	left:150px;
+}
+.all-sort-list .item-list .close { 
+	position:absolute;
+	width:26px;
+	height:26px;
+	color:#FFFFFF;
+	cursor:pointer;
+	top:-1px;
+	right:-26px;
+	font-size:20px;
+	line-height:20px;
+	text-align:center;
+	font-family:"Microsoft Yahei";
+	background:rgba(0, 0, 0, 0.6); 
+	background-color:transparent\9;
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, startColorstr='#60000000', endColorstr='#60000000');
+}
+
+.item-list .subitem {float:left; width:477px; padding:0px 4px 0px 8px;}
+.item-list .subitem dl {overflow:hidden; }
+.item-list .subitem dt { float:left; width:200px; line-height:22px; text-align:left; padding:5px 0px 0px 5px; font-weight:700; color:#2ECC71; }
+.item-list .subitem dt a { color:#00BFFF; font-size:16px}
+.item-list .subitem dd { float:left; width:450px; padding:3px 0px 0px; overflow:hidden; }
+.item-list .subitem dd em { float:left; height:14px; line-height:14px; padding:0px 8px; margin-top:5px;}
+.item-list .subitem dd em a, .item-list .cat-right dd a { color:#FFFFFF; text-decoration:none;  font-style:normal}
+.item-list .subitem dd em a:hover, .item-list .cat-right dd a:hover {color:#E4393C;font-weight:normal; }
+.item-list .cat-right { float:right; width:210px; }
+.item-list .cat-right dl { width:194px; padding:6px 8px; }
+.item-list .cat-right dd { padding-top:6px; line-height:22px; overflow:hidden; padding:3px 0px 0px; }
+.item-list .cat-right dt { padding:3px 6px 0px 0px; font-weight:700; color:#00BFFF; font-size:16px }
+.item-list .cat-right dd a:hover { color:#666; }
